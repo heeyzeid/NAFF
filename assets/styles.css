@@ -1,0 +1,329 @@
+section,
+header {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+
+header {
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
+  height: auto !important;
+}
+
+header a {
+  color: #fff !important;
+}
+
+header a img {
+  min-height: 25px;
+}
+
+header a.btn {
+  background-color: #11232e93;
+  color: #fff !important;
+}
+
+footer > div {
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
+}
+
+footer > div:last-child {
+  background-image: none;
+  background-color: #0371c0;
+}
+
+.default,
+[class*="green"] {
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 50%, #fff 100%);
+  color: #fff !important;
+}
+
+button.green {
+  background-image: -webkit-gradient(linear, left top, right top, from(#11232e), color-stop(99%, #fff));
+  background-image: linear-gradient(to right, #11232e 0%, #fff 99%);
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 50%, #fff 100%);
+}
+
+#none {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #none {
+    display: block;
+  }
+}
+
+#home_section {
+  margin-top: -3vh;
+}
+
+#home_section *:not(a):not(mark) {
+  color: #121833 !important;
+}
+
+#home_section a[href="#whitepaper"] {
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
+}
+
+#home_section #container {
+  -webkit-mask-image: url(../images/shape2.svg);
+  mask-image: url(../images/shape2.svg);
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  width: 130%;
+  margin-left: -12vw;
+  margin-top: 15vh;
+}
+
+@media screen and (min-width: 992px) {
+  #home_section #container {
+    margin-top: -5vh;
+    margin-left: -6vw;
+  }
+}
+
+#home_section #container img {
+  width: 100%;
+  max-height: 220px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 400px) {
+  #home_section #container img {
+    max-height: 320px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #home_section #container img {
+    width: 55%;
+    position: absolute;
+    top: -12vh;
+    right: 7vw;
+    max-height: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #home_section #container img {
+    top: -25vh;
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  #home_section #container img {
+    top: -17vh;
+  }
+}
+
+#token {
+  padding: 0;
+  /* form */
+}
+
+#token h4,
+#token p,
+#token b {
+  color: #fff !important;
+}
+
+#token .tk_countdown {
+  background-color: #11232e;
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
+}
+
+#token .pr_box * {
+  color: #11232e !important;
+}
+
+#token .pr_box.exchange * {
+  color: #fff !important;
+}
+
+#token video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+#token .presaleToken * {
+  color: #000 !important;
+}
+
+#token .hash-form form {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#token .hash-form form b {
+  color: #000 !important;
+}
+
+#token .hash-form form input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: 1.7px solid #11232e;
+  border-radius: 10px;
+}
+
+#token .hash-form form input[type="text"]:focus {
+  border: 3px solid #11232e;
+}
+
+#token .hash-form form input[type="submit"] {
+  font-size: 1rem;
+  /* width: 95%; */
+  border: none;
+  word-wrap: wrap;
+  text-align: center;
+  color: white;
+  background-color: #11232e;
+  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  #token .hash-form form input[type="submit"] {
+    font-size: 0.8rem;
+    padding: 12px 15px;
+    border-radius: 5px;
+  }
+}
+
+#token .hash-form form input[type="submit"]:hover {
+  background-color: #767676;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+#token .hash-form form label {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#token .progress-bar {
+  width: 75%;
+  /*     background-color: #11232e !important;
+    color: #fff !important;
+ */
+}
+
+#token h6 {
+  color: #fff !important;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+/* === timer css ====  */
+.timer_box {
+  max-width: 390px;
+  /* max-width: 90%; */
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timer_box_1 {
+  background: transparent;
+  border: 1px solid white;
+  margin: 0px 5px;
+}
+
+.timer_box_2 {
+  margin-top: 2.5vh;
+  background: #ffffff40;
+  border: none;
+}
+
+.display-timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: -10px;
+}
+
+.display-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.timer-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.show-timer {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 10px;
+  color: #fff;
+}
+
+.timer-text {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .show-timer {
+    font-size: 24px;
+    padding: 5px;
+  }
+  .timer-text {
+    font-size: 8px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

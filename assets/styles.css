@@ -4,8 +4,13 @@ header {
   color: #fff !important;
 }
 
+/* .migrationButton{
+  background-color: #27053d !important;
+
+} */
+
 header {
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
+  background-color: #170836 !important;
   height: auto !important;
 }
 
@@ -23,24 +28,23 @@ header a.btn {
 }
 
 footer > div {
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
-}
+  background-color: #581287 !important}
 
 footer > div:last-child {
-  background-image: none;
+  background-color: none;
   background-color: #0371c0;
 }
 
 .default,
 [class*="green"] {
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 50%, #fff 100%);
+  background-color: linear-gradient(20deg, #062b6c 23%, #0371c0 50%, #fff 100%);
   color: #fff !important;
 }
 
 button.green {
-  background-image: -webkit-gradient(linear, left top, right top, from(#11232e), color-stop(99%, #fff));
-  background-image: linear-gradient(to right, #11232e 0%, #fff 99%);
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 50%, #fff 100%);
+  background-color: -webkit-gradient(linear, left top, right top, from(#11232e), color-stop(99%, #fff));
+  background-color: linear-gradient(to right, #11232e 0%, #fff 99%);
+  background-color: linear-gradient(20deg, #062b6c 23%, #0371c0 50%, #fff 100%);
 }
 
 #none {
@@ -58,12 +62,11 @@ button.green {
 }
 
 #home_section *:not(a):not(mark) {
-  color: #121833 !important;
+  color: #500980 !important;
 }
 
 #home_section a[href="#whitepaper"] {
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
-}
+  background-color: #500980}
 
 #home_section #container {
   -webkit-mask-image: url(../images/shape2.svg);
@@ -134,8 +137,7 @@ button.green {
 
 #token .tk_countdown {
   background-color: #11232e;
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
-}
+  background-color: #581287}
 
 #token .pr_box * {
   color: #11232e !important;
@@ -199,8 +201,8 @@ button.green {
   text-align: center;
   color: white;
   background-color: #11232e;
-  background-image: linear-gradient(20deg, #062b6c 23%, #0371c0 100%);
-  padding: 12px 20px;
+  background-color: #581287 ;
+   padding: 12px 20px;
   text-decoration: none;
   margin: 4px 2px;
   border-radius: 7px;

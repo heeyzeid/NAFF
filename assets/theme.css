@@ -87,15 +87,15 @@ header a:hover,
 .timeline_box.complete::before,
 .timeline_box.current .timeline_inner,
 .timeline .owl-nav i:hover {
-	background-color: #ff69c9;
+	background-color: #581287;
 }
 .roadmap_box.current .roadmap_inner::before,
 .timeline_box.current .timeline_inner::before {
 	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff67cb;
 }
 .btn-default {
-	background-image: -webkit-linear-gradient(left, #ff67cb 0%,#ffcc67 51%,#ff67cb);
-	background-image: linear-gradient(to right, #ff67cb 0%,#ffcc67 51%,#ff67cb);
+	background-color: #581287;
+	background-color: #581287;
 }
 .btn-default.active.focus, 
 .btn-default.active:focus, 
@@ -132,8 +132,8 @@ button,
 .team_pop .progress-bar,
 .tk_counter_inner .progress-bar.gradient,
 .faq_content4 .card-header a::after {
-	background-image: -webkit-linear-gradient(left, #ff67cb 0%,#ffcc67 99%);
-	background-image: linear-gradient(to right, #ff67cb 0%,#ffcc67 99%);
+	background-color: #581287;
+	background-color: #581287;
 }
 .gradient_box {
 	background-image: -webkit-linear-gradient(left, #ff67cb 0%,#ffcc67 99%) !important;

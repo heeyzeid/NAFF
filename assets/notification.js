@@ -16,7 +16,7 @@ function time() {
 function notification() {
   spop({
     template:
-      '<div class="sale_notification d-flex align-items-center"><img src="assets/images/about_icon.png" alt="" /> <div class="notification_inner"> <h3>' +
+      '<div class="sale_notification d-flex align-items-center"><img src="assets/images/favicon.png" alt="" /> <div class="notification_inner"> <h3>' +
       Math.floor(Math.random() * 60000 + 3000) +
       "  $NAFF</h3><p>Have Just Been Purchased</p></div></div>",
     group: "submit-satus",
